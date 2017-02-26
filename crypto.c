@@ -1,9 +1,8 @@
 /* Test */
-
 #include<stdio.h>
 
-int main()
+int main(void)
 {
     printf("Hello\nWorld");
-
+    return 0;
 }
