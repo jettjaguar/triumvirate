@@ -17,7 +17,7 @@ int main() {
   
   printf("%s\n", buffer);
   
-  for (i=0; i<27; i++) {
+  for (i=27; i>=0; --i) {                   // Prints starting from space instead of z
     push(english_letters[i],frequency[i]);    // Initialize Key Space; from keygenerator.h
   }
   display();                    
