@@ -1,7 +1,15 @@
+//This shouldn't be a header file
+
+
 // A KeySpaceElement consists of:
 //	a key: 		which is one of the english letters
 //	the frequency:	which is the frequency of the occurence of that letter
 //	values:		which is an array of digits that the key can encode to
+
+#include <stdlib.h>     //Doesn't compile without including these here
+#include <stdio.h>
+
+
 struct KeySpaceElement {
 	char key;
 	int frequency;
